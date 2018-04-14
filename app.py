@@ -4,6 +4,7 @@ from passlib.hash import sha256_crypt as sha
 from functools import wraps
 import csv
 import distance
+import json
 
 app = Flask(__name__, static_folder="static")
 
@@ -53,7 +54,7 @@ def close_connection(exception):
 @app.route('/' ,methods=['POST','GET'])
 def login():
     if request.method == "GET":
-        return render_template("login.html")
+        return render_template("new_index.html")
     else:
         error = None
         username=request.form["username"]
@@ -69,7 +70,7 @@ def login():
             return "Password Incorrect"
 
 
-@app.route('/signup', methods=['GET', 'POST'])
+@app.route('/#signup', methods=['GET', 'POST'])
 def signup():
     if request.method == "GET":
         return render_template("signup.html")
@@ -94,7 +95,7 @@ def signup():
 
         return redirect(url_for("login"))
 
-@app.route("/logout")
+@app.route("/#logout")
 def logout():
     session.clear()
     return redirect(url_for("login"))
@@ -126,19 +127,19 @@ def change():
             flash("Wrong Password")
             return redirect(url_for("change"))
 
-@app.route('/addpkg', methods=['GET', 'POST'])
+@app.route('/#addpkg', methods=['GET', 'POST'])
 def addpkg():
     if request.method == "POST":
         submission = {}
         submission["srcpin"] = form.request["srcpin"]
-        submission["destpin"] = form.request["destpin"]
+        submission["dstpin"] = form.request["dstpin"]
         submission["name"] = form.request["name"]
         submission["srcadd"] = form.request["srcadd"]
         submission["dstadd"] = form.request["dstadd"]
 
         execute_db("insert into users values(?, ?, ?, ?, ?)", (
             submission["srcpin"],
-            submission["destpin"],
+            submission["dstpin"],
             submission["name"],
             submission["srcadd"],
             submission["dstadd"],
@@ -164,19 +165,21 @@ def populate():
 def cal_distime():
     res = {}
     query = query_db("select usrname from users")
-    k = len(query)
-    for i in range(k):
+    le = len(query)
+    k = open('res.json', 'a')
+    for i in range(16):
         temp = {}
-        for j in range(k):
-            if i!=j:
-                dst, time = distance.parse_url(query[i][0], query[j][0])
-                temp_1 = {}
-                temp_1["distance"] = dst
-                temp_1["time"] = time
-                temp[query[j][0]] = temp_1
-        res[query[i][0]] = temp
-    print(res)
+        for j in range(16):
+            dst, time = distance.parse_url(query[i][0], query[j][0])
+            temp_1 = {}
+            temp_1["distance"] = dst
+            temp_1["time"] = time
+            temp[str(query[j][0])] = temp_1
+        res[str(query[i][0])] = temp
+    json.dump(res, k)
+    k.close()
     return "Success"
+
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
     app.run(host = "0.0.0.0",debug=True, port=8080)
