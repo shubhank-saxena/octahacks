@@ -40,38 +40,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#login">Login</a>
+            <a class="nav-link js-scroll-trigger" href="{{ url_for('login') }}">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Sign Up</a>
+            <a class="nav-link js-scroll-trigger" href="{{ url_for('signup') }}">Sign Up</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#addpkg">Add Package</a>
+            <a class="nav-link js-scroll-trigger" href="{{ url_for('addpkg') }}">Add Package</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#show_results">Show Results</a>
+            <a class="nav-link js-scroll-trigger" href="{{ url_for('show_results') }}">Show Results</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="login">
-        {% include 'login.html' %}
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="signup">
-        {% include 'signup.html' %}
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="addpkg">
-       {% include 'addpkg.html' %}
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="show_results">
-      </section>
-
+      {% block content %}
+      {% content %}
     </div>
 
     <!-- Bootstrap core JavaScript -->
