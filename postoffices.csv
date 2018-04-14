@@ -1,0 +1,810 @@
+Sansad Marg H.O,Delhi,110001,77.2162,28.6371
+New Delhi G.P.O. ,Delhi,110001,77.2162,28.6371
+Indraprastha H.O,Delhi,110002,77.3,28.4833
+Lodi Road H.O,Delhi,110003,77.2329,28.6105
+Delhi G.P.O. ,Delhi,110006,77.2329,28.6105
+Ramesh Nagar H.O,Delhi,110015,77.2779,28.5345
+Kalkaji H.O,Delhi,110019,77.2513,28.5485
+Sarojini Nagar H.O,Delhi,110023,77.0907,28.5796
+Naraina Industrial Estate H.O,Delhi,110028,76.9439,28.6094
+Krishna Nagar H.O,Delhi,110051,76.5918,28.3256
+Ashok Vihar H.O,Delhi,110052,73.9262,26.9263
+Jhilmil H.O,Delhi,110095,77.7988,29.1765
+Faridabad NIT H.O,Haryana,121001,78.6598,26.4983
+Gurgaon H.O,Haryana,122001,79.2305,27.9972
+Narnaul H.O,Haryana,123001,76.1083,28.0444
+Rohtak H.O,Haryana,124001,76.5754,28.8884
+Bahadurgarh H.O,Haryana,124507,76.9316,28.6911
+Hisar H.O,Haryana,125001,75.7368,29.149
+Sirsa H.O,Haryana,125055,75.029,29.5349
+Jind H.O,Haryana,126102,76.3144,29.3162
+Bhiwani H.O,Haryana,127021,76.1411,28.7919
+Sonipat H.O,Haryana,131001,77.0116,28.9959
+Karnal H.O,Haryana,132001,76.9884,29.6901
+Panipat H.O,Haryana,132103,76.9695,29.39
+Ambala G.P.O.,Haryana,133001,76.2644,29.321
+Ambala City H.O,Haryana,134003,77.2044,28.6716
+Yamunanagar H.O,Haryana,135001,77.2805,30.1291
+Kurukshetra H.O,Haryana,136118,76.837,29.9657
+Ropar H.O,Punjab,140001,76.5256,30.9688
+Rajpura H.O,Punjab,140401,78.3885,28.3407
+Ludhiana H.O,Punjab,141001,75.8523,30.9001
+Khanna H.O,Punjab,141401,76.2211,30.703
+Moga H.O,Punjab,142001,75.2591,28.2892
+Jagraon H.O,Punjab,142026,75.4749,30.7901
+Amritsar G.P.O. ,Punjab,143001,78.5157,13.1995
+Tarn Taran H.O,Punjab,143401,74.9254,31.4511
+Batala H.O,Punjab,143505,75.2028,31.8186
+Gurdaspur H.O,Punjab,143521,79.7015,27.5395
+Jalandhar City H.O,Punjab,144001,75.5792,31.3256
+Jalandhar Cantt H.O,Punjab,144005,74.9579,28.067
+Dasuya H.O,Punjab,144205,75.6531,31.8156
+Phagwara H.O,Punjab,144401,75.7717,31.2185
+Kapurthala H.O,Punjab,144601,75.3811,31.3801
+Hoshiarpur H.O,Punjab,146001,75.908,31.5324
+Patiala H.O,Punjab,147001,76.4027,30.3271
+Sangrur H.O,Punjab,148001,75.8469,30.2461
+Bathinda H.O,Punjab,151001,74.95,30.23
+Faridkot H.O,Punjab,151203,74.7583,30.6724
+Ferozepur H.O,Punjab,152001,76.943,27.7891
+Chandigarh G.P.O. ,Punjab,160017,76.5054,31.8336
+Shimla G.P.O. ,Himachal Pradesh,171001,74.9071,32.4999
+Rampur Bushahr H.O,Himachal Pradesh,172001,77.6292,31.4492
+Reckong Peo H.O,Himachal Pradesh,172107,78.2721,31.5399
+Nahan H.O,Himachal Pradesh,173001,77.294,30.5606
+Solan H.O,Himachal Pradesh,173212,77.1087,30.9086
+Bilaspur (Bilaspur- HP) H.O,Himachal Pradesh,174001,77.1813,26.9714
+Una H.O,Himachal Pradesh,174303,76.2691,31.4649
+Barsar H.O,Himachal Pradesh,174305,76.0626,29.2835
+Mandi H.O,Himachal Pradesh,175001,76.7726,28.7806
+Sunder Nagar Town Ship H.O,Himachal Pradesh,175019,76.2704,29.158
+Kullu H.O,Himachal Pradesh,175101,79.47,27.9703
+Keylong H.O,Himachal Pradesh,175132,77.0773,32.5951
+Kangra H.O,Himachal Pradesh,176001,76.2607,32.0909
+Palampur H.O,Himachal Pradesh,176061,76.5568,32.1145
+Dharamsala H.O,Himachal Pradesh,176215,76.3213,32.2419
+Chamba H.O,Himachal Pradesh,176310,78.3929,30.3438
+Hamirpur H.O,Himachal Pradesh,177001,80.1488,25.9558
+Dehra H.O,Himachal Pradesh,177101,77.0536,29.9983
+Jammu H.O,Jammukashmir,180001,74.8691,32.7357
+Gandhinagar H.O,Jammukashmir,180004,74.8667,32.7
+Udhampur H.O,Jammukashmir,182101,75.1357,32.9243
+Kathua H.O,Jammukashmir,184101,75.5246,32.3707
+Rajouri H.O,Jammukashmir,185131,76.8852,30.3863
+Srinagar G.P.O. ,Jammukashmir,190001,74.72,34.1169
+Anantnag H.O,Jammukashmir,192101,75.1517,33.7299
+Baramulla H.O,Jammukashmir,193101,80.2954,23.7709
+Leh H.O,Jammukashmir,194101,77.584,34.165
+Ghaziabad H.O,Uttar Pradesh,201001,77.4378,28.6625
+Noida H.O,Uttar Pradesh,201301,77.33,28.58
+Aligarh H.O,Uttar Pradesh,202001,78.0748,27.8833
+Bulandshahr H.O,Uttar Pradesh,203001,77.8582,28.403
+Khurja H.O,Uttar Pradesh,203131,77.8544,28.2544
+Mainpuri H.O,Uttar Pradesh,205001,79.0288,27.23
+Etawah H.O,Uttar Pradesh,206001,79.0216,26.7778
+Auraiya H.O,Uttar Pradesh,206122,79.5117,26.4631
+Etah H.O,Uttar Pradesh,207001,78.6635,27.5581
+Kanpur H.O,Uttar Pradesh,208001,80.3463,26.4478
+Nawabganj H.O,Uttar Pradesh,208002,80.3141,26.496
+Kanpur Cantt. H.O,Uttar Pradesh,208004,80.7402,25.2845
+Fatehgarh H.O,Uttar Pradesh,209601,79.6312,27.3646
+Unnao H.O,Uttar Pradesh,209801,80.4878,26.5471
+Banda H.O,Uttar Pradesh,210001,80.3358,25.4753
+Hamirpur H.O,Uttar Pradesh,210301,80.1488,25.9558
+Allahabad H.O,Uttar Pradesh,211001,81.8333,25.4489
+Allahabad Kty. H.O,Uttar Pradesh,211002,81.8431,25.4567
+Fatehpur H.O,Uttar Pradesh,212601,79.3879,27.0746
+Varanasi H.O,Uttar Pradesh,221001,83.0104,25.3167
+Varanasi Cantt H.O,Uttar Pradesh,221002,81.4706,26.3148
+Rasra H.O,Uttar Pradesh,221712,83.8546,25.8569
+Jaunpur H.O,Uttar Pradesh,222001,82.6813,26.0526
+Faizabad H.O,Uttar Pradesh,224001,82.1329,26.7769
+Akbarpur H.O,Uttar Pradesh,224122,79.6931,26.0181
+Barabanki H.O,Uttar Pradesh,225001,82.7304,20.4358
+Lucknow G.P.O. ,Uttar Pradesh,226001,82.6196,24.7307
+Lucknow Chowk H.O,Uttar Pradesh,226003,88.4,25.2813
+Amethi H.O,Uttar Pradesh,227405,81.8057,26.1568
+Sultanpur (Avadh) H.O,Uttar Pradesh,228001,79.0596,26.0889
+Raebarely H.O,Uttar Pradesh,229001,77.8403,26.797
+Lalganj (Raebareli) H.O,Uttar Pradesh,229206,80.2154,26.4272
+Pratapgarh H.O,Uttar Pradesh,230001,81.9404,25.8964
+Mirzapur H.O,Uttar Pradesh,231001,79.4177,27.0108
+Ghazipur H.O,Uttar Pradesh,233001,80.7508,25.8007
+Hardoi H.O,Uttar Pradesh,241001,79.0725,26.9366
+Shahjahanpur H.O,Uttar Pradesh,242001,77.8219,30.2
+Bareilly H.O,Uttar Pradesh,243001,79.4219,28.347
+Budaun H.O,Uttar Pradesh,243601,79.1263,28.0362
+Moradabad H.O,Uttar Pradesh,244001,78.7768,28.8389
+Amroha H.O,Uttar Pradesh,244221,78.4698,28.9031
+Rampur H.O,Uttar Pradesh,244901,79.6599,26.9374
+Hapur H.O,Uttar Pradesh,245101,77.7814,28.7304
+Pauri H.O,Uttarakhand,246001,78.77,30.1536
+Kotdwara H.O,Uttarakhand,246149,78.5195,29.7434
+Lansdowne H.O,Uttarakhand,246155,78.6788,29.841
+Gopeshwar H.O,Uttarakhand,246401,79.3198,30.4125
+Bijnor H.O,Uttar Pradesh,246701,78.2689,29.1351
+Dhampur H.O,Uttar Pradesh,246761,78.508,29.306
+Saharanpur H.O,Uttar Pradesh,247001,77.5452,29.9679
+Roorkee H.O,Uttarakhand,247667,77.8913,29.8631
+Dehradun G.P.O. ,Uttarakhand,248001,78.5773,26.6409
+Dehradun Cantt H.O,Uttarakhand,248003,71.6955,27.8232
+Tehri H.O,Uttarakhand,249001,78.4803,30.3909
+Meerut Cantt H.O,Uttar Pradesh,250001,77.2404,28.9614
+Meerut City H.O,Uttar Pradesh,250002,77.7193,28.9716
+Baraut H.O,Uttar Pradesh,250611,77.2624,29.1017
+Muzaffarnagar H.O,Uttar Pradesh,251001,77.7041,29.4739
+Sitapur H.O,Uttar Pradesh,261001,80.8714,25.1811
+Pilibhit H.O,Uttar Pradesh,262001,79.8034,28.631
+Pithoragarh H.O,Uttarakhand,262501,80.2095,29.5835
+Kheri H.O,Uttar Pradesh,262701,79.3132,25.4504
+Nainital H.O,Uttarakhand,263001,79.4469,29.3974
+Haldwani H.O,Uttarakhand,263139,79.5286,29.2225
+Almora H.O,Uttarakhand,263601,79.6609,29.5973
+Ranikhet H.O,Uttarakhand,263645,79.4334,29.6423
+Gonda H.O,Uttar Pradesh,271001,81.969,27.1325
+Balrampur H.O,Uttar Pradesh,271201,79.457,27.1208
+Bahraich H.O,Uttar Pradesh,271801,81.5959,27.5743
+Basti H.O,Uttar Pradesh,272001,82.7328,26.7945
+Bansi H.O,Uttar Pradesh,272153,82.9341,27.1798
+Gorakhpur H.O,Uttar Pradesh,273001,83.3724,26.7548
+Kunraghat H.O,Uttar Pradesh,273008,79.8689,26.9797
+Deoria H.O,Uttar Pradesh,274001,85.0234,26.1791
+Padrauna H.O,Uttar Pradesh,274304,83.981,26.9042
+Mau H.O,Uttar Pradesh,275101,80.872,25.6121
+Azamgarh H.O,Uttar Pradesh,276001,83.1836,26.0676
+Ballia H.O,Uttar Pradesh,277001,79.3655,28.2013
+Mathura H.O,Uttar Pradesh,281001,77.6833,27.502
+Agra H.O,Uttar Pradesh,282001,77.4254,24.9888
+Agra Fort H.O,Uttar Pradesh,282003,77.8815,27.7563
+Firozabad H.O,Uttar Pradesh,283203,78.4018,27.1494
+Jhansi H.O,Uttar Pradesh,284001,78.5822,25.4545
+Lalitpur H.O,Uttar Pradesh,284403,78.4189,24.6905
+Orai H.O,Uttar Pradesh,285001,79.4532,25.9907
+Alwar H.O,Rajasthan,301001,76.625,27.5625
+Bahror H.O,Rajasthan,301701,79.5318,23.9247
+Jaipur G.P.O. ,Rajasthan,302001,75.7878,26.9196
+Jawahar Nagar H.O,Rajasthan,302004,75.7878,26.9196
+Shastri Nagar H.O,Rajasthan,302016,75.787,26.9258
+Shahpura H.O,Rajasthan,303103,75.9596,27.3912
+Dausa H.O,Rajasthan,303303,76.3358,26.89
+Sambhar Lake H.O,Rajasthan,303604,75.1914,26.9081
+Tonk Raj H.O,Rajasthan,304001,76.8606,27.1585
+Ajmer H.O,Rajasthan,305001,74.6412,26.4498
+Nasirabad H.O,Rajasthan,305601,74.7336,26.3047
+Madanganj Kishangarh H.O,Rajasthan,305801,75.6097,27.7352
+Beawar [Raj] H.O,Rajasthan,305901,74.7731,26.6943
+Marwar Jn. H.O,Rajasthan,306001,76.0223,28.8684
+Pali Marwar H.O,Rajasthan,306401,73.3234,25.7728
+Sirohi H.O,Rajasthan,307001,72.8479,24.8884
+Bhilwara H.O,Rajasthan,311001,74.6352,25.3464
+Chittorgarh H.O,Rajasthan,312001,75.8122,24.8856
+Udaipur H.O,Rajasthan,313004,73.6918,24.5712
+Kankroli H.O,Rajasthan,313324,73.8882,25.0588
+Dungarpur H.O,Rajasthan,314001,73.7147,23.8431
+Bharatpur H.O,Rajasthan,321001,79.3899,27.127
+Deeg H.O,Rajasthan,321203,77.3256,27.4719
+Sawaimadhopur H.O,Rajasthan,322001,78.7781,28.1736
+Gangapur H.O,Rajasthan,322201,75.9973,23.8689
+Hindaun H.O,Rajasthan,322230,77.0352,26.7341
+Bundi H.O,Rajasthan,323001,75.6374,25.4385
+Kota H.O,Rajasthan,324001,75.8391,25.1825
+New Grain Mandi Kota H.O,Rajasthan,324007,75.7841,25.102
+Jhalawar H.O,Rajasthan,326001,76.165,24.5968
+Banswara H.O,Rajasthan,327001,74.4425,23.5411
+Dholpur H.O,Rajasthan,328001,74.9528,32.6667
+Churu H.O,Rajasthan,331001,74.9672,28.3042
+Ratangarh H.O,Rajasthan,331022,74.6185,28.0814
+Sikar H.O,Rajasthan,332001,75.14,27.6121
+Srimadhopur H.O,Rajasthan,332715,76.7503,26.0195
+Jhunjhunu H.O,Rajasthan,333001,75.398,28.1256
+Chirawa H.O,Rajasthan,333026,75.6404,28.2394
+Bikaner H.O,Rajasthan,334001,73.3075,28.0209
+Sriganganagar H.O,Rajasthan,335001,75.0348,29.5973
+Hanumangarh Jn. H.O,Rajasthan,335512,75.5484,28.4715
+Nagaur H.O,Rajasthan,341001,73.7339,27.202
+Didwana H.O,Rajasthan,341303,74.5754,27.401
+Makrana H.O,Rajasthan,341505,74.7245,27.0436
+Jodhpur H.O,Rajasthan,342001,73.0059,26.2684
+Jalore H.O,Rajasthan,343001,72.8598,25.2918
+Barmer H.O,Rajasthan,344001,71.3921,25.7457
+Jaisalmer H.O,Rajasthan,345001,70.9039,26.9176
+Rajkot H.O,Gujarat,360001,75.5878,25.7368
+Gondal H.O,Gujarat,360311,70.8025,21.9607
+Porbandar H.O,Gujarat,360575,69.6093,21.6422
+Jamnagar H.O,Gujarat,361001,70.0667,22.4729
+Junagadh H.O,Gujarat,362001,70.4598,21.5197
+Surendranagar H.O,Gujarat,363001,71.6486,22.7271
+Bhavnagar H.O,Gujarat,364001,72.1525,21.7745
+Amreli H.O,Gujarat,365601,71.2117,21.5998
+Bhuj H.O,Gujarat,370001,69.6693,23.254
+Ahmedabad G.P.O. ,Gujarat,380001,72.5769,23.0256
+Revdibazar H.O,Gujarat,380002,72.6181,23.0333
+Navrangpura H.O,Gujarat,380009,72.6181,23.0333
+Gandhinagar (Gujarat) H.O,Gujarat,382010,72.6833,23.2167
+Dholka H.O,Gujarat,382225,72.4413,22.7273
+Kalol H.O,Gujarat,382721,73.4627,22.6078
+Himatnagar H.O,Gujarat,383001,72.966,23.5989
+Mahesana H.O,Gujarat,384001,72.3847,23.5986
+Patan H.O,Gujarat,384265,78.8715,24.1285
+Palanpur H.O,Gujarat,385001,72.4382,24.171
+Nadiad H.O,Gujarat,387001,72.8616,22.6939
+Kheda H.O,Gujarat,387411,72.6853,22.7522
+Anand H.O,Gujarat,388001,72.9552,22.5525
+Godhra H.O,Gujarat,389001,73.6149,22.7755
+Dahod H.O,Gujarat,389151,77.4898,23.0362
+Vadodara H.O,Gujarat,390001,73.2081,22.2994
+Fateganj H.O,Gujarat,390002,73.1818,22.3152
+Dabhoi H.O,Gujarat,391110,73.4333,22.1833
+Bharuch H.O,Gujarat,392001,72.9805,21.6948
+Bardoli H.O,Gujarat,394601,73.1115,21.123
+Nanpura H.O,Gujarat,395001,74.5841,24.0735
+Surat H.O,Gujarat,395003,72.8302,21.1959
+Valsad H.O,Gujarat,396001,72.9284,20.6173
+Bilimora H.O,Gujarat,396321,72.9613,20.7696
+Navsari H.O,Gujarat,396445,72.9167,20.85
+Mumbai G.P.O. ,Maharashtra,400001,72.8919,18.6291
+Kalbadevi H.O,Maharashtra,400002,73.291,17.0509
+Mumbai Central H.O,Maharashtra,400008,72.8919,18.6291
+Chinchbunder H.O,Maharashtra,400009,72.8919,18.6291
+Dadar H.O,Maharashtra,400014,72.8381,19.0201
+Mahim H.O,Maharashtra,400016,72.85,19.0333
+Andheri H.O,Maharashtra,400053,72.8526,19.1309
+Chembur H.O,Maharashtra,400071,72.8929,19.0348
+Borivali H.O,Maharashtra,400091,72.8598,19.235
+Thane H.O,Maharashtra,400601,72.9636,19.197
+Palghar H.O,Maharashtra,401404,72.7654,19.6969
+Alibag H.O,Maharashtra,402201,72.8758,18.6481
+Panaji H.O,Maharashtra,403001,73.8262,15.4957
+Margao H.O,Maharashtra,403601,73.9579,15.275
+Panvel H.O,Maharashtra,410206,73.1101,18.9888
+Pune H.O,Maharashtra,411001,73.8554,18.5196
+Pune City H.O,Maharashtra,411002,73.9801,18.8671
+Shivajinagar H.O,Maharashtra,411005,73.8471,18.5247
+Solapur H.O,Maharashtra,413001,75.9104,17.6715
+Pandharpur H.O,Maharashtra,413304,75.331,17.6792
+Osmanabad H.O,Maharashtra,413501,76.0389,18.1816
+Latur H.O,Maharashtra,413512,76.5678,18.3972
+Shrirampur H.O,Maharashtra,413709,88.3422,22.7528
+Ahmednagar H.O,Maharashtra,414001,74.7384,19.0946
+Satara H.O,Maharashtra,415001,73.9933,17.6859
+Karad H.O,Maharashtra,415110,74.1818,17.2894
+Chiplun H.O,Maharashtra,415605,73.5094,17.5334
+Ratnagiri H.O,Maharashtra,415612,73.3102,16.9915
+Kolhapur H.O,Maharashtra,416003,74.2317,16.6956
+Kolhapur City H.O,Maharashtra,416012,74.4123,18.5966
+Ichalkaranji H.O,Maharashtra,416115,74.4605,16.6912
+Miraj H.O,Maharashtra,416410,74.6466,16.8242
+Sangli H.O,Maharashtra,416416,74.5642,16.8544
+Sawantwadi H.O,Maharashtra,416510,73.8076,18.2905
+Malvan H.O,Maharashtra,416606,73.4629,16.0598
+Kalyan City H.O,Maharashtra,421301,74.7794,19.9626
+Nashik H.O,Maharashtra,422001,73.791,19.9973
+Nashik Road H.O,Maharashtra,422101,74.5064,19.5743
+Malegaon H.O,Maharashtra,423203,74.5288,20.5537
+Dhule H.O,Maharashtra,424001,74.7773,20.9025
+Chalisgaon H.O,Maharashtra,424101,75.0121,20.4632
+Jalgaon H.O,Maharashtra,425001,76.5346,21.0519
+Bhusawal H.O,Maharashtra,425201,75.7818,21.0466
+Aurangabad (MH) H.O,Maharashtra,431001,75.6854,25.5396
+Beed H.O,Maharashtra,431122,75.7563,18.9892
+Jalna H.O,Maharashtra,431203,75.8864,19.841
+Parbhani H.O,Maharashtra,431401,76.7708,19.2686
+Nanded H.O,Maharashtra,431601,77.315,19.1602
+Nagpur GPO,Maharashtra,440001,79.0849,21.1463
+Nagpur City H.O,Maharashtra,440002,79.0849,21.1463
+Kamthi H.O,Maharashtra,441001,79.1945,21.2171
+Gondia H.O,Maharashtra,441601,80.192,21.4601
+Bhandara H.O,Maharashtra,441904,79.65,21.1667
+Wardha H.O,Maharashtra,442001,78.5967,20.7381
+Chandrapur H.O,Maharashtra,442401,79.2961,19.9471
+Buldana H.O,Maharashtra,443001,76.1846,20.5293
+Akola H.O,Maharashtra,444001,76.9981,20.7096
+Khamgaon H.O,Maharashtra,444303,76.5683,20.7074
+Amravati H.O,Maharashtra,444601,77.75,20.9333
+Paratwada H.O,Maharashtra,444805,77.518,21.2991
+Yavatmal H.O,Maharashtra,445001,78.1306,20.3968
+Khandwa H.O,Madhya Pradesh,450001,76.352,21.8245
+Khargone H.O,Madhya Pradesh,451001,75.6107,21.8253
+Indore G.P.O. ,Madhya Pradesh,452001,75.4049,23.1535
+Indore Nagar H.O,Madhya Pradesh,452007,75.4049,23.1535
+Dhar H.O,Madhya Pradesh,454001,75.2977,22.5937
+Dewas H.O,Madhya Pradesh,455001,76.0553,22.9659
+Ujjain H.O,Madhya Pradesh,456001,75.7764,23.1824
+Ratlam H.O,Madhya Pradesh,457001,75.0403,23.3303
+Jhabua H.O,Madhya Pradesh,457661,74.5914,22.7682
+Mandsaur H.O,Madhya Pradesh,458001,75.0699,24.0718
+Neemuch H.O,Madhya Pradesh,458441,74.91,24.25
+Betul H.O,Madhya Pradesh,460001,77.9041,21.9019
+Hoshangabad H.O,Madhya Pradesh,461001,77.7225,22.7536
+Bhopal G.P.O. ,Madhya Pradesh,462001,75.1283,23.6066
+C.T.T.Nagar H.O,Madhya Pradesh,462003,75.1283,23.6066
+Bhel H.O,Madhya Pradesh,462022,78.5653,29.8016
+Vidisha H.O,Madhya Pradesh,464001,77.8097,23.5243
+Raisen H.O,Madhya Pradesh,464551,77.7821,23.3306
+Shajapur H.O,Madhya Pradesh,465001,76.2777,23.4269
+Rajgarh(Bia) H.O,Madhya Pradesh,465661,77.463,25.5275
+Sehore H.O,Madhya Pradesh,466001,77.0833,23.2
+Sagar Cantt H.O,Madhya Pradesh,470001,78.531,24.7207
+Damoh H.O,Madhya Pradesh,470661,79.4413,23.8365
+Chhatarpur H.O,Madhya Pradesh,471001,79.5878,24.9142
+Tikamgarh H.O,Madhya Pradesh,472001,78.8314,24.7441
+Guna H.O,Madhya Pradesh,473001,77.3119,24.6476
+Ashoknagar H.O,Madhya Pradesh,473331,77.7304,24.5747
+Shivpuri H.O,Madhya Pradesh,473551,77.6607,25.4235
+Lashkar H.O,Madhya Pradesh,474001,78.1533,26.1997
+Morar H.O,Madhya Pradesh,474006,78.2248,26.2264
+Morena H.O,Madhya Pradesh,476001,78.0016,26.5029
+Bhind H.O,Madhya Pradesh,477001,78.7873,26.5667
+Chhindwara H.O,Madhya Pradesh,480001,78.9376,22.058
+Seoni H.O,Madhya Pradesh,480661,79.5414,22.3934
+Balaghat H.O,Madhya Pradesh,481001,80.1849,21.8167
+Mandla H.O,Madhya Pradesh,481661,80.3711,22.5997
+Jabalpur H.O,Madhya Pradesh,482001,79.9501,23.167
+Katni H.O,Madhya Pradesh,483501,80.3948,23.8368
+Shahdol H.O,Madhya Pradesh,484001,81.3619,23.2936
+Satna H.O,Madhya Pradesh,485001,80.8248,24.5822
+Rewa H.O,Madhya Pradesh,486001,81.296,24.534
+Sidhi H.O,Madhya Pradesh,486661,81.8794,24.3933
+Narsinghpur H.O,Madhya Pradesh,487001,79.1893,23.2662
+Ibsb Bhilai H.O,Chattisgarh,490001,80.0785,22.9332
+Durg H.O,Chattisgarh,491001,81.2833,21.1833
+Rajnandgaon H.O,Chattisgarh,491441,80.4052,21.6534
+Raipur H.O,Chattisgarh,492001,79.4334,25.4795
+Jagdalpur H.O,Chattisgarh,494001,82.9384,21.1264
+Kanker H.O,Chattisgarh,494334,81.492,20.2722
+Bilaspur (Bilaspur-CGH) H.O,Chattisgarh,495001,82.0162,22.1235
+Korba H.O,Chattisgarh,495677,82.6963,22.3458
+Raigarh H.O,Chattisgarh,496001,83.4,21.9
+Ambikapur H.O,Chattisgarh,497001,83.1954,23.1189
+Hyderabad G.P.O. ,Andhra Pradesh,500001,78.6003,17.8669
+Hyderabad Jubilee H.O,Andhra Pradesh,500002,78.6003,17.8669
+Secunderabad H.O,Andhra Pradesh,500003,78.5426,17.5043
+Khairatabad H.O,Andhra Pradesh,500004,78.6003,17.8669
+Trimulgherry H.O,Andhra Pradesh,500015,78.5167,17.4703
+Stn Kachiguda H.O,Andhra Pradesh,500027,78.0179,17.3995
+Vikarabad H.O,Andhra Pradesh,501101,77.9044,17.3381
+Sangareddy H.O,Andhra Pradesh,502001,78.5573,18.3538
+Siddipet H.O,Andhra Pradesh,502103,78.8486,18.1048
+Medak H.O,Andhra Pradesh,502110,78.2608,18.0453
+Zaheerabad H.O,Andhra Pradesh,502220,77.6099,17.5806
+Nizamabad H.O,Andhra Pradesh,503001,78.0988,18.6715
+Kamareddy H.O,Andhra Pradesh,503111,78.1518,17.8826
+Armoor H.O,Andhra Pradesh,503224,78.4563,18.9895
+Adilabad H.O,Andhra Pradesh,504001,78.5359,19.672
+Mancherial H.O,Andhra Pradesh,504208,79.4286,18.8707
+Karimnagar H.O,Andhra Pradesh,505001,79.1286,18.4392
+Peddapalli H.O,Andhra Pradesh,505172,78.404,16.3748
+Jagtial H.O,Andhra Pradesh,505327,78.9166,18.7947
+Huzurabad H.O,Andhra Pradesh,505468,79.3988,18.2009
+Hanamkonda H.O,Andhra Pradesh,506001,79.5694,18.0101
+Warangal H.O,Andhra Pradesh,506002,79.5833,18
+Mahabubabad H.O,Andhra Pradesh,506101,80.7199,18.0574
+Parkal H.O,Andhra Pradesh,506164,79.7007,18.1984
+Jangaon H.O,Andhra Pradesh,506167,79.1524,17.726
+Khammam H.O,Andhra Pradesh,507001,80.1437,17.2477
+Kothagudem Colls H.O,Andhra Pradesh,507101,80.6189,17.4307
+Bhadrachalam H.O,Andhra Pradesh,507111,80.8889,17.6685
+Nalgonda H.O,Andhra Pradesh,508001,79.2671,17.0544
+Bhongir H.O,Andhra Pradesh,508116,78.8856,17.5154
+Miryalguda H.O,Andhra Pradesh,508207,79.5625,16.8722
+Suryapet H.O,Andhra Pradesh,508213,79.6204,17.1405
+Mahabubnagar H.O,Andhra Pradesh,509001,79.6804,20.969
+Wanaparthy H.O,Andhra Pradesh,509103,78.0689,16.3674
+Gadwal H.O,Andhra Pradesh,509125,77.7956,16.235
+Stn. Jadcherla H.O,Andhra Pradesh,509301,78.3782,17.1844
+Anantapur H.O,Andhra Pradesh,515001,77.5988,14.6794
+Hindupur H.O,Andhra Pradesh,515201,77.6453,12.9596
+Dharmavaram H.O,Andhra Pradesh,515671,77.72,14.4149
+Guntakal H.O,Andhra Pradesh,515801,77.3657,15.1713
+Cuddapah H.O,Andhra Pradesh,516001,78.8235,14.4775
+Rajampet H.O,Andhra Pradesh,516115,78.0772,17.6183
+Proddatur H.O,Andhra Pradesh,516360,78.5481,14.7502
+Pulivendla H.O,Andhra Pradesh,516390,78.2257,14.4217
+Chittoor H.O,Andhra Pradesh,517001,79.0956,13.2105
+Chandragiri H.O,Andhra Pradesh,517101,79.3163,13.5887
+Madanapalle H.O,Andhra Pradesh,517325,78.5029,13.5503
+Tirupati H.O,Andhra Pradesh,517501,79.4199,13.6355
+Srikalahasti H.O,Andhra Pradesh,517644,79.7014,13.7551
+Kurnool H.O,Andhra Pradesh,518001,78.0338,15.8276
+Adoni H.O,Andhra Pradesh,518301,77.2754,15.6251
+Nandyal H.O,Andhra Pradesh,518501,78.4865,15.4888
+Vijayawada H.O,Andhra Pradesh,520001,80.6305,16.5193
+Buckinghampet H.O,Andhra Pradesh,520002,80.6333,16.5
+Machilipatnam H.O,Andhra Pradesh,521001,81.1389,16.1875
+Avanigadda H.O,Andhra Pradesh,521121,80.9181,16.0215
+Nuzvid H.O,Andhra Pradesh,521201,80.8465,16.7881
+Gudivada H.O,Andhra Pradesh,521301,80.9963,16.4317
+Guntur H.O,Andhra Pradesh,522002,80.4573,16.2997
+Bapatla H.O,Andhra Pradesh,522101,80.4675,15.9044
+Tenali H.O,Andhra Pradesh,522201,80.6398,16.2425
+Sattenapalle H.O,Andhra Pradesh,522403,80.1514,16.3939
+Mangalagiri H.O,Andhra Pradesh,522503,80.5585,16.4035
+Narasaraopet H.O,Andhra Pradesh,522601,80.0471,16.2347
+Ongole H.O,Andhra Pradesh,523001,80.0487,15.5064
+Kandukur H.O,Andhra Pradesh,523105,79.9039,15.2154
+Chirala H.O,Andhra Pradesh,523155,80.3521,15.8246
+Kanigiri H.O,Andhra Pradesh,523230,79.5027,15.4059
+Markapur H.O,Andhra Pradesh,523316,79.2706,15.7404
+Nellore H.O,Andhra Pradesh,524001,79.9867,14.4536
+Gudur H.O,Andhra Pradesh,524101,79.8163,17.4799
+Kavali H.O,Andhra Pradesh,524201,79.9912,14.9158
+Visakhapatnam H.O,Andhra Pradesh,530001,83.2016,17.6801
+Waltair R S H.O,Andhra Pradesh,530004,83.2833,17.7167
+Anakapalle H.O,Andhra Pradesh,531001,83.0039,17.6913
+Narsipatnam H.O,Andhra Pradesh,531116,82.6104,17.6673
+Srikakulam H.O,Andhra Pradesh,532001,83.8973,18.2969
+Amadalavalasa H.O,Andhra Pradesh,532185,83.4268,17.932
+Tekkali H.O,Andhra Pradesh,532201,84.2355,18.6057
+Kakinada H.O,Andhra Pradesh,533001,82.2381,16.9604
+Rajahmundry H.O,Andhra Pradesh,533101,81.7778,17.0052
+Amalapuram H.O,Andhra Pradesh,533201,82.0061,16.5787
+Razole H.O,Andhra Pradesh,533242,81.8391,16.4761
+Ramachandrapuram H.O,Andhra Pradesh,533255,82.0287,16.8364
+Samalkot H.O,Andhra Pradesh,533440,82.1722,17.0536
+Eluru H.O,Andhra Pradesh,534001,81.1056,16.7108
+Tadepalligudem H.O,Andhra Pradesh,534101,81.5287,16.813
+Bhimavaram H.O,Andhra Pradesh,534201,81.5232,16.5408
+Tanuku H.O,Andhra Pradesh,534211,81.6846,16.7532
+Palakol H.O,Andhra Pradesh,534260,81.73,16.5167
+Kovvur H.O,Andhra Pradesh,534350,81.7293,17.0162
+Jangareddygudem H.O,Andhra Pradesh,534447,81.4667,16.7
+Vizianagaram H.O,Andhra Pradesh,535002,83.4115,18.1169
+Parvatipuram H.O,Andhra Pradesh,535501,83.4267,18.783
+Bobbili H.O,Andhra Pradesh,535558,83.359,18.5735
+Bangalore G.P.O. ,Karnataka,560001,77.5955,12.9814
+Basavanagudi H.O,Karnataka,560004,77.5741,12.9446
+H.A.L II Stage H.O,Karnataka,560008,77.6427,12.9686
+Rajajinagar H.O,Karnataka,560010,77.5545,12.9932
+Jalahalli H.O,Karnataka,560013,77.5539,13.0506
+R T Nagar H.O,Karnataka,560032,77.6153,12.938
+Jayanagar H.O,Karnataka,560041,77.586,12.9237
+Chickballapur H.O,Karnataka,562101,77.65,13.3333
+Channapatna H.O,Karnataka,562160,77.2027,12.6542
+Kolar H.O,Karnataka,563101,78.1292,13.1367
+Mysore H.O,Karnataka,570001,76.6568,12.3117
+Saraswathipuram H.O,Karnataka,570009,76.6298,12.3036
+Madikeri H.O,Karnataka,571201,75.7382,12.426
+Nanjangud H.O,Karnataka,571301,76.6797,12.1247
+Mandya H.O,Karnataka,571401,76.923,12.5402
+Srirangapatna H.O,Karnataka,571438,76.6844,12.4226
+Kollegal H.O,Karnataka,571440,77.1069,12.1569
+Tumkur H.O,Karnataka,572101,77.101,13.3415
+Tiptur H.O,Karnataka,572201,76.4777,13.2563
+Arsikere H.O,Karnataka,573103,76.257,13.3145
+Hassan H.O,Karnataka,573201,76.0962,13.0071
+Karkala H.O,Karnataka,574104,74.9991,13.2105
+Puttur(D.K.) H.O,Karnataka,574201,75.461,13.8079
+Mangalore H.O,Karnataka,575001,74.856,12.9172
+Kulshekar H.O,Karnataka,575005,76.824,12.5964
+Udupi H.O,Karnataka,576101,74.7462,13.3347
+Manipal H.O,Karnataka,576104,74.7833,13.35
+Kundapura H.O,Karnataka,576201,74.7307,13.6131
+Davangere H.O,Karnataka,577001,75.9269,14.4669
+Chikmagalur H.O,Karnataka,577101,75.774,13.3223
+Koppa H.O,Karnataka,577126,75.3633,13.5304
+Shimoga H.O,Karnataka,577201,75.5679,13.9316
+Bhadravati H.O,Karnataka,577301,75.705,13.8485
+Sagar H.O,Karnataka,577401,75.8297,12.4559
+Chitradurga H.O,Karnataka,577501,76.4004,14.2226
+Dharwad H.O,Karnataka,580001,75.0078,15.4601
+Hubli H.O,Karnataka,580020,75.1338,15.3478
+Haveri H.O,Karnataka,581110,75.4045,14.7935
+Karwar H.O,Karnataka,581301,74.1297,14.8136
+Kumta H.O,Karnataka,581343,74.4189,14.4285
+Sirsi H.O,Karnataka,581401,79.1639,20.6815
+Gadag H.O,Karnataka,582101,75.6297,15.4298
+Bellary H.O,Karnataka,583101,77.2267,15.3928
+Hospet H.O,Karnataka,583201,76.3871,15.2695
+Koppal H.O,Karnataka,583231,76.1548,15.3452
+Raichur H.O,Karnataka,584101,77.354,16.2047
+Gulbarga H.O,Karnataka,585101,76.8379,17.3376
+Yadgiri H.O,Karnataka,585201,78.0512,21.7533
+Bidar H.O,Karnataka,585401,77.5301,17.9133
+Bijapur H.O,Karnataka,586101,75.7154,16.8244
+Bagalkot H.O,Karnataka,587101,75.6961,16.1867
+Jamkhandi H.O,Karnataka,587301,75.2915,16.5046
+Belgaum H.O,Karnataka,590001,74.5045,15.8521
+Bailhongal H.O,Karnataka,591102,74.8575,15.8162
+Ramdurg H.O,Karnataka,591123,75.6835,15.9792
+Chikodi H.O,Karnataka,591201,74.5859,16.429
+Athani H.O,Karnataka,591304,76.3552,10.154
+Gokak H.O,Karnataka,591307,74.8239,16.169
+Chennai G.P.O. ,Tamilnadu,600001,80.2842,13.0933
+Anna Road H.O,Tamilnadu,600002,80.2714,13.0744
+Park Town H.O,Tamilnadu,600003,80.2781,13.0819
+Mylapore H.O,Tamilnadu,600004,80.2708,13.0292
+St.Thomas Mount H.O,Tamilnadu,600016,80.2662,13.0916
+Thygarayanagar H.O,Tamilnadu,600017,80.2662,13.0916
+Tambaram H.O,Tamilnadu,600045,80.1271,12.9246
+Ambattur H.O,Tamilnadu,600053,80.0886,13.0767
+Avadi Camp H.O,Tamilnadu,600054,80.1098,13.1147
+Tiruvallur H.O,Tamilnadu,602001,79.9089,13.1438
+Chengalpattu H.O,Tamilnadu,603001,79.9773,12.6927
+Tindivanam H.O,Tamilnadu,604001,79.6555,12.234
+Pondicherry H.O,Tamilnadu,605001,79.8298,11.9338
+Villupuram H.O,Tamilnadu,605602,79.4924,11.9397
+Tirukkoyilur H.O,Tamilnadu,605757,79.2026,11.9662
+Vriddhachalam H.O,Tamilnadu,606001,79.3219,11.5153
+Kallakurichi H.O,Tamilnadu,606202,78.2108,12.3128
+Tiruvannamalai H.O,Tamilnadu,606601,79.0746,12.2266
+Cuddalore H.O,Tamilnadu,607001,79.7644,11.7463
+Chidambaram H.O,Tamilnadu,608001,79.6911,11.3991
+Mayiladuthurai H.O,Tamilnadu,609001,79.655,11.1035
+Sirkali H.O,Tamilnadu,609110,79.7359,11.2373
+Tiruvarur H.O,Tamilnadu,610001,79.6368,10.7727
+Nagapattinam H.O,Tamilnadu,611001,79.8445,10.7639
+Kumbakonam H.O,Tamilnadu,612001,79.3912,10.9621
+Melakaveri H.O,Tamilnadu,612002,79.3912,10.9621
+Thanjavur H.O,Tamilnadu,613001,79.1391,10.7852
+Mannargudi H.O,Tamilnadu,614001,79.55,11.2833
+Papanasam H.O,Tamilnadu,614205,79.2706,10.9269
+Pattukottai H.O,Tamilnadu,614601,78.9205,11.4252
+Tiruturaipundi H.O,Tamilnadu,614713,79.6327,10.5282
+Tiruchirappalli H.O,Tamilnadu,620001,78.6965,10.8155
+Srirangam H.O,Tamilnadu,620006,78.6971,10.8573
+Turaiyur H.O,Tamilnadu,621010,78.5989,11.1498
+Perambalur H.O,Tamilnadu,621212,78.8833,11.2333
+Lalgudi H.O,Tamilnadu,621601,78.8194,10.8742
+Pudukkottai H.O,Tamilnadu,622001,78.8214,10.3813
+Ramanathapuram H.O,Tamilnadu,623501,78.8308,9.3716
+Paramakudi H.O,Tamilnadu,623707,78.1671,11.1991
+Dindigul H.O,Tamilnadu,624001,77.9804,10.369
+Nilakottai H.O,Tamilnadu,624208,77.8502,10.165
+Palani H.O,Tamilnadu,624601,77.5209,10.4503
+Madurai H.O,Tamilnadu,625001,78.1196,9.9173
+Tallakulam H.O,Tamilnadu,625002,78.15,9.95
+Arasaradi H.O,Tamilnadu,625016,78.6693,11.2175
+Bodinayakanur H.O,Tamilnadu,625513,77.3498,10.0117
+Periyakulam H.O,Tamilnadu,625601,77.5439,10.1213
+Virudhunagar H.O,Tamilnadu,626001,77.9579,9.5851
+Aruppukottai H.O,Tamilnadu,626101,78.2644,10.1123
+Rajapalayam H.O,Tamilnadu,626117,77.5533,9.453
+Sivakasi H.O,Tamilnadu,626123,77.798,9.45
+Tirunelveli H.O,Tamilnadu,627001,77.6845,8.7252
+Palayankottai H.O,Tamilnadu,627002,77.7359,8.7236
+Ambasamudram H.O,Tamilnadu,627401,77.4519,8.7107
+Sankarankovil H.O,Tamilnadu,627756,77.5411,9.1705
+Tenkasi H.O,Tamilnadu,627811,77.3153,8.96
+Tuticorin H.O,Tamilnadu,628001,78.1342,8.7674
+Tiruchendur H.O,Tamilnadu,628215,78.1191,8.4972
+Kovilpatti H.O,Tamilnadu,628501,77.8699,9.1717
+Srivaikuntam H.O,Tamilnadu,628601,77.9128,8.6293
+Nagercoil H.O,Tamilnadu,629001,77.4344,8.1773
+Thuckalay H.O,Tamilnadu,629175,78.6014,11.5941
+Karaikudi H.O,Tamilnadu,630001,78.7679,10.0661
+Devakottai H.O,Tamilnadu,630302,78.8233,9.947
+Sivaganga H.O,Tamilnadu,630561,78.4836,9.847
+Manamadurai H.O,Tamilnadu,630606,78.471,9.6732
+Arakkonam H.O,Tamilnadu,631001,79.6705,13.0845
+Kanchipuram H.O,Tamilnadu,631501,79.7001,12.8352
+Vellore H.O,Tamilnadu,632001,79.1325,12.9184
+Arni H.O,Tamilnadu,632301,79.2855,12.6699
+Ranipet H.O,Tamilnadu,632401,79.3322,12.9291
+Gudiyattam H.O,Tamilnadu,632602,79.6902,14.0481
+Krishnagiri H.O,Tamilnadu,635001,78.2138,12.5192
+Tirupattur H.O,Tamilnadu,635601,78.568,12.4924
+Salem H.O,Tamilnadu,636001,78.1587,11.6512
+Suramangalam H.O,Tamilnadu,636005,78.1201,11.6707
+Atur H.O,Tamilnadu,636102,78.6014,11.5941
+Dharmapuri H.O,Tamilnadu,636701,76.6364,18.7291
+Namakkal H.O,Tamilnadu,637001,78.1652,11.2213
+Tiruchengodu H.O,Tamilnadu,637211,77.46,14.5378
+Erode H.O,Tamilnadu,638001,77.7274,11.3428
+Bhavani H.O,Tamilnadu,638301,77.6842,11.4471
+Gobichettipalayam H.O,Tamilnadu,638452,77.4422,11.455
+Dharapuram H.O,Tamilnadu,638656,77.5322,10.7383
+Karur H.O,Tamilnadu,639001,78.0809,10.9577
+Kulittalai H.O,Tamilnadu,639104,78.4125,10.9349
+Coimbatore H.O,Tamilnadu,641001,76.9661,11.0055
+Rathinasabapathy Puram H.O,Tamilnadu,641002,77.3207,10.9983
+Mettupalayam H.O,Tamilnadu,641301,76.9349,11.2997
+Tirupur H.O,Tamilnadu,641601,77.3546,11.1154
+Pollachi H.O,Tamilnadu,642001,77.0085,10.6582
+Udamalpet H.O,Tamilnadu,642126,77.2478,10.5881
+Udagamandalam H.O,Tamilnadu,643001,76.6952,11.4134
+Coonoor H.O,Tamilnadu,643101,76.7937,11.3498
+Kannur H.O,Kerala,670001,75.3576,11.8675
+Thalassery H.O,Kerala,670101,75.4934,11.7478
+Taliparamba H.O,Kerala,670141,75.3616,12.0345
+Kasaragod H.O,Kerala,671121,74.9896,12.4984
+Kanhangad H.O,Kerala,671315,75.1063,12.3081
+Calicut H.O,Kerala,673001,75.7804,11.248
+Calicut Civil Station H.O,Kerala,673020,75.7733,11.4232
+Vadakara H.O,Kerala,673101,76.5545,9.8777
+Kalpetta H.O,Kerala,673121,76.0822,11.6106
+Koyilandi H.O,Kerala,673305,75.6965,11.4391
+Tirur(kerala) H.O,Kerala,676101,75.948,10.9111
+Manjeri-kla H.O,Kerala,676121,75.948,10.9111
+Malappuram H.O,Kerala,676505,76.0824,11.0402
+Palakkad H.O,Kerala,678001,76.6563,10.7744
+Olavakkot H.O,Kerala,678002,77.9414,17.7071
+Alathur Mbr H.O,Kerala,678541,78.6142,17.2896
+Ottapalam H.O,Kerala,679101,76.3784,10.7709
+Ponani H.O,Kerala,679577,75.9252,10.767
+Thrissur H.O,Kerala,680001,76.2167,10.5167
+Irinjalakuda H.O,Kerala,680121,76.2112,10.3424
+Chalakudi H.O,Kerala,680307,76.3376,10.3007
+Kunnamkulam H.O,Kerala,680503,76.0706,10.6484
+Wadakanchery-TC H.O,Kerala,680582,77.8247,11.5055
+Kochi H.O,Kerala,682001,76.2602,9.9399
+Ernakulam H.O,Kerala,682011,76.2904,9.9671
+Aluva H.O,Kerala,683101,76.3565,10.1047
+Perumbavoor H.O,Kerala,683542,76.4737,10.1069
+Kattappana H.O,Kerala,685508,76.859,9.7179
+Thodupuzha H.O,Kerala,685584,76.7222,9.8939
+Kottayam H.O,Kerala,686001,75.5667,11.8333
+Changanacherry H.O,Kerala,686101,76.536,9.442
+Vaikom H.O,Kerala,686141,76.3952,9.7471
+Kanjirapally H.O,Kerala,686507,76.5539,19.355
+Palai H.O,Kerala,686575,75.9444,25.8772
+Muvattupuzha H.O,Kerala,686661,76.5738,9.9798
+Alappuzha H.O,Kerala,688001,76.3264,9.49
+Cherthala H.O,Kerala,688524,76.3807,9.6634
+Tiruvalla H.O,Kerala,689101,76.5749,9.3816
+Chengannur H.O,Kerala,689121,76.6151,9.3157
+Pathanamthitta H.O,Kerala,689645,76.7833,9.2667
+Mavelikara H.O,Kerala,690101,76.5564,9.2593
+Kayangulam H.O,Kerala,690502,76.5002,9.1724
+Karunagappaly H.O,Kerala,690518,77.5414,9.5228
+Kollam H.O,Kerala,691001,75.6833,11.45
+Punalur H.O,Kerala,691305,76.9326,9.0217
+Kottarakara H.O,Kerala,691506,76.8,9
+Adur( Kla) H.O,Kerala,691523,76.8019,8.8603
+Thiruvananthapuram G.P.O. ,Kerala,695001,76.9606,8.5225
+Poojapura H.O,Kerala,695012,76.9386,8.5029
+Attingal H.O,Kerala,695101,76.8152,8.6928
+Neyyattinkara H.O,Kerala,695121,77.0859,8.3985
+Kolkatta G.P.O. ,West Bengal,700001,86.4895,22.2009
+Cossipore H.O,West Bengal,700002,88.3791,22.6228
+Barabazar H.O,West Bengal,700007,88.35,22.5667
+Beleghata H.O,West Bengal,700010,88.985,23.2169
+Park Street H.O,West Bengal,700016,88.985,23.2169
+Alipore H.O,West Bengal,700027,88.3232,22.532
+Tollygunge H.O,West Bengal,700033,88.3598,22.5041
+Belgharia H.O,West Bengal,700056,88.3852,22.6581
+Barrackpore H.O,West Bengal,700120,88.3634,22.766
+Barasat H.O,West Bengal,700124,88.482,22.7215
+Baruipur H.O,West Bengal,700144,88.4388,22.3525
+Howrah H.O,West Bengal,711101,88.3186,22.5769
+Salkia H.O,West Bengal,711106,88.35,22.5833
+Chinsurah H.O,West Bengal,712101,88.3967,22.8876
+Serampore H.O,West Bengal,712201,88.3422,22.7528
+Arambagh H.O,West Bengal,712601,87.7833,22.8833
+Burdwan H.O,West Bengal,713101,87.8569,23.2557
+Katwa H.O,West Bengal,713130,88.1326,23.6456
+Durgapur H.O,West Bengal,713201,87.3216,23.4996
+Asansol H.O,West Bengal,713301,86.8353,24.0875
+Raniganj H.O,West Bengal,713347,84.5163,24.6838
+Midnapore H.O,West Bengal,721101,87.3226,22.4211
+Contai H.O,West Bengal,721401,87.7489,21.7798
+Jhargram H.O,West Bengal,721507,86.995,22.4538
+Tamluk H.O,West Bengal,721636,87.9259,22.3008
+Bankura H.O,West Bengal,722101,87.0716,23.2324
+Purulia H.O,West Bengal,723101,86.363,23.3306
+Suri H.O,West Bengal,731101,87.5277,23.9081
+Rampurhat H.O,West Bengal,731224,84.1699,24.1264
+Malda H.O,West Bengal,732101,88.1387,25.0424
+Balurghat H.O,West Bengal,733101,88.7773,25.221
+Siliguri H.O,West Bengal,734001,88.4285,26.71
+Darjeeling H.O,West Bengal,734101,88.2667,27.0333
+Jalpaiguri H.O,West Bengal,735101,88.7333,26.5167
+Mal H.O,West Bengal,735221,80.7359,27.0215
+Cooch Behar H.O,West Bengal,736101,89.4451,26.3254
+Gangtok H.O,West Bengal,737101,88.6122,27.3257
+Krishnanagar H.O,West Bengal,741101,88.4907,23.4058
+Ranaghat H.O,West Bengal,741201,88.5667,23.1762
+Kalyani H.O,West Bengal,741235,88.4833,22.9833
+Nabadwip H.O,West Bengal,741302,88.3686,23.4067
+Berhampore (WB) H.O,West Bengal,742101,88.2516,24.1047
+Kandi H.O,West Bengal,742137,88.0402,23.9595
+Raghunathganj H.O,West Bengal,742225,88.0617,24.4667
+Diamond Harbour H.O,West Bengal,743331,88.1847,22.193
+Basirhat H.O,West Bengal,743411,88.8548,22.6614
+Port Blair H.O,West Bengal,744101,92.75,11.6667
+Bhubaneswar G.P.O. ,Odisha,751001,83.5747,22.0593
+Puri H.O,Odisha,752001,85.8249,19.7983
+Khurda H.O,Odisha,752055,85.6163,20.1827
+Nayagarh H.O,Odisha,752069,85.1267,20.5574
+Cuttack G.P.O. ,Odisha,753001,86.2171,21.0295
+Chandinchowk H.O,Odisha,753002,86.2171,21.0295
+Athagarh H.O,Odisha,754029,85.6296,20.52
+Jagatsinghpur H.O,Odisha,754103,86.1711,20.2557
+Kendrapara H.O,Odisha,754211,86.4223,20.5017
+Jajpur H.O,Odisha,755001,86.3373,20.8485
+Balasore H.O,Odisha,756001,86.9335,21.4927
+Jaleswar H.O,Odisha,756032,87.2225,21.8018
+Bhadrak H.O,Odisha,756100,86.5156,21.0545
+Baripada H.O,Odisha,757001,86.7285,21.9346
+Rairangpur H.O,Odisha,757043,86.1738,22.2667
+Keonjhargarh H.O,Odisha,758001,85.5934,21.6296
+Dhenkanal H.O,Odisha,759001,85.5969,20.6574
+Angul H.O,Odisha,759122,85.1019,20.8409
+Berhampur(GM) H.O,Odisha,760001,83.8504,20.2464
+Chatrapur H.O,Odisha,761020,84.9836,19.3557
+Aska H.O,Odisha,761110,84.66,19.6111
+Bhanjanagar H.O,Odisha,761126,84.582,19.9272
+Parlakhemundi H.O,Odisha,761200,80.7678,21.646
+Phulbani H.O,Odisha,762001,84.2316,20.4792
+Jeypore(K) H.O,Odisha,764001,80.5827,20.3407
+Koraput H.O,Odisha,764020,82.7105,18.812
+Rayagada(K) H.O,Odisha,765001,83.2508,19.1188
+Bhawanipatna H.O,Odisha,766001,83.1686,19.9076
+Balangir H.O,Odisha,767001,83.4903,20.7042
+Sambalpur H.O,Odisha,768001,81.7333,21.9
+Bargarh H.O,Odisha,768028,83.6167,21.3333
+Jharsuguda H.O,Odisha,768201,84.0179,21.8616
+Rourkela H.O,Odisha,769001,84.8641,22.225
+Uditnagar H.O,Odisha,769012,84.4204,22.304
+Sundargarh H.O,Odisha,770001,84.0333,22.1167
+Guwahati G.P.O. ,Assam,781001,90.3336,24.9965
+Guwahati University H.O,Assam,781014,91.5843,26.093
+Barpeta H.O,Assam,781301,91.0063,26.3229
+Nalbari H.O,Assam,781335,76.5505,29.9393
+Nagaon H.O,Assam,782001,91.1101,26.3044
+Diphu H.O,Assam,782460,93.4312,25.8434
+Dhubri H.O,Assam,783301,89.9856,26.0186
+Kokrajhar H.O,Assam,783370,90.2729,26.4011
+Tezpur H.O,Assam,784001,92.8,26.6333
+Mangaldoi H.O,Assam,784125,92.0305,26.4421
+Jorhat H.O,Assam,785001,94.2031,26.7575
+Golaghat H.O,Assam,785621,93.9595,26.5117
+Sivasagar H.O,Assam,785640,94.6378,26.9843
+Dibrugarh H.O,Assam,786001,94.9084,27.4799
+Tinsukia H.O,Assam,786125,95.3599,27.489
+North Lakhimpur H.O,Assam,787001,94.1036,27.2352
+Silchar H.O,Assam,788001,92.7979,24.8273
+Hailakandi H.O,Assam,788151,92.561,24.6839
+Karimganj H.O,Assam,788710,92.3554,24.8692
+Itanagar H.O,North Eastern,791111,93.6099,27.0869
+Shillong G.P.O. ,North Eastern,793001,86.8188,24.9394
+Tura H.O,North Eastern,794001,90.2024,25.5142
+Imphal H.O,North Eastern,795001,93.9442,24.8081
+Aizawl H.O,North Eastern,796001,92.7179,23.7289
+Kohima H.O,North Eastern,797001,94.111,25.6747
+Agartala H.O,North Eastern,799001,91.2794,23.836
+Radhakishorepur H.O,North Eastern,799120,91.4915,23.5368
+Dharmanagar H.O,North Eastern,799250,92.1314,24.3491
+Patna G.P.O. ,Bihar,800001,83.2948,24.1158
+Bankipore H.O,Bihar,800004,85.1861,25.6152
+Buxar H.O,Bihar,802101,83.9787,25.5747
+Arrah H.O,Bihar,802301,84.6714,25.5631
+Biharsharif H.O,Bihar,803101,77.8091,27.0074
+Jehanabad H.O,Bihar,804408,80.4454,23.3596
+Nawadha H.O,Bihar,805110,80.5758,26.7605
+Munger H.O,Bihar,811201,86.4735,25.3756
+Jamui H.O,Bihar,811307,86.2257,24.9259
+Bhagalpur H.O,Bihar,812001,83.8687,26.1714
+Banka H.O,Bihar,813102,82.3479,22.3171
+Dumka H.O,Jharkhand,814101,87.2486,24.2678
+B.Deoghar H.O,Jharkhand,814112,86.3722,23.9176
+Giridih H.O,Jharkhand,815301,86.3077,24.1856
+Sasaram H.O,Bihar,821115,84.0169,24.9487
+Daltonganj H.O,Jharkhand,822101,84.0687,24.0431
+Gaya H.O,Bihar,823001,85.0039,24.7969
+Aurangabad (BH) H.O,Bihar,824101,79.2373,24.7845
+Hazaribagh H.O,Jharkhand,825301,85.3611,23.9951
+Dhanbad H.O,Jharkhand,826001,86.4432,23.802
+Bokaro Steel City H.O,Jharkhand,827001,83.1287,24.5258
+Ramgarh Cantt H.O,Jharkhand,829122,77.831,26.2858
+Jamshedpur H.O,Jharkhand,831001,86.1854,22.8028
+Chaibasa H.O,Jharkhand,833201,85.8046,22.5482
+Ranchi G.P.O. ,Jharkhand,834001,93.0471,26.7349
+Doranda H.O,Jharkhand,834002,87.3066,24.213
+Gumla H.O,Jharkhand,835207,84.544,23.0416
+Siwan H.O,Bihar,841226,83.9216,25.1382
+Chapra H.O,Bihar,841301,84.7309,25.781
+Marhowrah H.O,Bihar,841418,81.391,26.3451
+Gopalganj H.O,Bihar,841428,84.4404,26.4673
+Muzaffarpur H.O,Bihar,842001,85.3906,26.1226
+Sitamarhi H.O,Bihar,843301,85.4906,26.5936
+Hajipur H.O,Bihar,844101,85.2095,25.69
+Motihari H.O,Bihar,845401,84.9192,26.6574
+Bettiah H.O,Bihar,845438,84.4987,26.8024
+Laheriasarai H.O,Bihar,846001,80.003,26.3361
+Darbhanga H.O,Bihar,846004,85.8971,26.1522
+Madhubani H.O,Bihar,847211,84.104,27.0001
+Samastipur H.O,Bihar,848101,85.7897,25.8608
+Begusarai H.O,Bihar,851101,86.1339,25.4185
+Saharsa H.O,Bihar,852201,86.5947,25.885
+Katihar H.O,Bihar,854105,87.5704,25.5385
+Purnea H.O,Bihar,854301,87.47,25.78

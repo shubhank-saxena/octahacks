@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Bootstrap 4 Starter Pack</title>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
+{% extends 'index.html' %}
+{% block content %}
 	<style>
-	form{
-		padding: 40px;
-		margin-top: 200px;
-		padding-bottom: 60px;
-	}
+		form{
+			padding: 40px;
+			margin-top: 200px;
+			padding-bottom: 60px;
+			background-color: white;
+			border-radius: 20px;
+		}
 
-</style>
-</head>
-<body>
+	</style>
 	<div class="container">
 		
 		<div class="row">
@@ -27,22 +19,16 @@
 					<h1>Welcome To Node</h1>
 					<div class="form-group">
 						<label for="exampleInputEmail1">Username</label>
-						<input type="text" class="form-control" id="username" placeholder="Enter username">
+						<input type="text" class="form-control" id="username"  name = "username" placeholder="Enter username">
 						<small id="emailHelp" class="form-text text-muted">Do not share your I'd with anyone</small>
 					</div>
 					<div class="form-group">
 						<label for="exampleInputPassword1">Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						<input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
 					</div>
 					<button type="submit" class="btn btn-primary">Submit</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-
-</body>
-</html>
+{% endblock %}

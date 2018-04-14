@@ -2,6 +2,7 @@ import sqlite3 ,os
 from flask import Flask, flash, redirect, render_template, request, session, abort , g , url_for , jsonify
 from passlib.hash import sha256_crypt as sha
 from functools import wraps
+import csv
 
 app = Flask(__name__, static_folder="static")
 
@@ -51,7 +52,7 @@ def close_connection(exception):
 @app.route('/' ,methods=['POST','GET'])
 def login():
     if request.method == "GET":
-        return render_template("index.html")
+        return render_template("login.html")
     else:
         error = None
         username=request.form["username"]
@@ -74,9 +75,6 @@ def signup():
     else:
         submission = {}
         submission["username"] = request.form["username"]
-        submission["name"] = request.form["name"]
-        submission["email"] = request.form["email"]
-        submission["phone"] = request.form["ph"]
         submission["pass"] = request.form["password"]
         submission["conf_pass"] = request.form["conf_pass"]
 
@@ -88,12 +86,9 @@ def signup():
             error = "Username already taken" 
 
         password = sha.encrypt(submission["pass"])
-        execute_db("insert into users values(?,?,?,?,?,0)", (
+        execute_db("insert into users values(?,?)", (
             submission["username"],
-            submission["name"],
-            submission["email"],
             password,
-            submission["phone"],
         ))
 
         return redirect(url_for("login"))
@@ -130,6 +125,39 @@ def change():
             flash("Wrong Password")
             return redirect(url_for("change"))
 
+@app.route('/addpkg', methods=['GET', 'POST'])
+def addpkg():
+    if request.method == "POST":
+        submission = {}
+        submission["srcpin"] = form.request["srcpin"]
+        submission["destpin"] = form.request["destpin"]
+        submission["name"] = form.request["name"]
+        submission["srcadd"] = form.request["srcadd"]
+        submission["dstadd"] = form.request["dstadd"]
+
+        execute_db("insert into users values(?, ?, ?, ?, ?)", (
+            submission["srcpin"],
+            submission["destpin"],
+            submission["name"],
+            submission["srcadd"],
+            submission["dstadd"],
+        ))
+
+    render_template("addpkg.html")
+
+@app.route('/populate')
+def populate():
+    f = open("postoffices.csv", 'r')
+    reader = csv.reader(f)
+    csv_list = list(reader)
+    for po in csv_list:
+        if query_db("select usrname from users where usrname = ?", (po[2], )) is not None:
+            execute_db("insert into users values(?, ?)", (
+                po[2],
+                po[2],
+            ))
+    return "Success"
+    
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
     app.run(host = "0.0.0.0",debug=True, port=8080)
