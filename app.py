@@ -3,6 +3,7 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 from passlib.hash import sha256_crypt as sha
 from functools import wraps
 import csv
+import distance
 
 app = Flask(__name__, static_folder="static")
 
@@ -57,13 +58,13 @@ def login():
         error = None
         username=request.form["username"]
         password=request.form["password"]
-        phash = query_db("select password from users where username = ?", (username, ))
+        phash = query_db("select password from users where usrname = ?", (username, ))
         if phash==[]:
             return "Username doesnt exist"
 
         if sha.verify(password, phash[0][0]):
             session["username"] = username
-            return redirect(url_for('profile'))
+            return redirect(url_for('addpkg'))
         else:
             return "Password Incorrect"
 
@@ -143,7 +144,7 @@ def addpkg():
             submission["dstadd"],
         ))
 
-    render_template("addpkg.html")
+    return render_template("addpkg.html")
 
 @app.route('/populate')
 def populate():
@@ -151,13 +152,31 @@ def populate():
     reader = csv.reader(f)
     csv_list = list(reader)
     for po in csv_list:
-        if query_db("select usrname from users where usrname = ?", (po[2], )) is not None:
+        password = sha.encrypt(po[2])
+        if query_db("select usrname from users where usrname = ?", (po[2], ))==[]:
             execute_db("insert into users values(?, ?)", (
                 po[2],
-                po[2],
+                password,
             ))
     return "Success"
-    
+
+@app.route('/cal')
+def cal_distime():
+    res = {}
+    query = query_db("select usrname from users")
+    k = len(query)
+    for i in range(k):
+        temp = {}
+        for j in range(k):
+            if i!=j:
+                dst, time = distance.parse_url(query[i][0], query[j][0])
+                temp_1 = {}
+                temp_1["distance"] = dst
+                temp_1["time"] = time
+                temp[query[j][0]] = temp_1
+        res[query[i][0]] = temp
+    print(res)
+    return "Success"
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
     app.run(host = "0.0.0.0",debug=True, port=8080)
