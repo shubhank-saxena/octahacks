@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Bootstrap 4 Starter Pack</title>
+	<link rel="stylesheet" href="../static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../static/css/bootstrap.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+	<style>
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: 'Raleway', sans-serif;
+		color: #595959;
+	}
+
+	.top-space {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 10vh;
+	}
+
+	.colored-body {
+		color: white;
+		margin: auto;
+		padding: 5%;
+		background: linear-gradient(#ffd6cc, #001a1a);
+	}
+
+	.icon-holder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.line {
+		width: 60%;
+		margin: auto;
+	}
+
+	.icon {
+		background: #85eaa7;
+		border-radius: 50%;
+		height: 20px;
+		width: 20px;
+	}
+
+	.timeline,
+	.search-res {
+		display: none;
+	}
+
+	.data {
+		font-size: 0.8rem;
+		font-style: italic;
+	}
+
+	.value {
+		font-weight: bold;
+	}
+
+	.search {
+		width: 70%;
+		border: none;
+		border-bottom: 2px solid #eee;
+		background: transparent;
+		color: #fff;
+		margin: 12px;
+	}
+
+	.search::-webkit-input-placeholder {
+		color: #eee;
+	}
+
+	.btn-center {
+		display: block;
+		margin: 0 auto;
+	}
+
+
+	.group {
+		position: relative;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+	}
+
+	input,
+	select {
+		font-size: 18px;
+		color: #fff;
+		padding: 10px;
+		display: block;
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid #fff;
+		background: transparent;
+	}
+
+	select option {
+		color: #000;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	/* LABEL ======================================= */
+
+	label {
+		color: #fff;
+		font-size: 18px;
+		font-weight: normal;
+		position: absolute;
+		pointer-events: none;
+		left: 5px;
+		top: 10px;
+		transition: 0.2s ease all;
+		-moz-transition: 0.2s ease all;
+		-webkit-transition: 0.2s ease all;
+	}
+
+	/* active state */
+
+	input:focus~label,
+	input:valid~label {
+		top: -20px;
+		font-size: 14px;
+	}
+
+	/* BOTTOM BARS ================================= */
+
+	.bar {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 2px;
+	}
+
+	.bar:before,
+	.bar:after {
+		content: '';
+		height: 2px;
+		width: 0;
+		bottom: 1px;
+		position: absolute;
+		background: #5264AE;
+		transition: 0.2s ease all;
+		-moz-transition: 0.2s ease all;
+		-webkit-transition: 0.2s ease all;
+	}
+
+	.bar:before {
+		left: 50%;
+	}
+
+	.bar:after {
+		right: 50%;
+	}
+
+	/* active state */
+
+	input:focus~.bar:before,
+	input:focus~.bar:after {
+		width: 50%;
+	}
+
+	/* HIGHLIGHTER ================================== */
+
+	.highlight {
+		position: absolute;
+		height: 60%;
+		width: 100px;
+		top: 25%;
+		left: 0;
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	/* active state */
+
+	input:focus~.highlight {
+		-webkit-animation: inputHighlighter 0.3s ease;
+		-moz-animation: inputHighlighter 0.3s ease;
+		animation: inputHighlighter 0.3s ease;
+	}
+
+	/* ANIMATIONS ================ */
+
+	@-webkit-keyframes inputHighlighter {
+		from {
+			background: #5264AE;
+		}
+		to {
+			width: 0;
+			background: transparent;
+		}
+	}
+
+	@-moz-keyframes inputHighlighter {
+		from {
+			background: #5264AE;
+		}
+		to {
+			width: 0;
+			background: transparent;
+		}
+	}
+
+	@keyframes inputHighlighter {
+		from {
+			background: #5264AE;
+		}
+		to {
+			width: 0;
+			background: transparent;
+		}
+	}
+
+</style>
+</head>
+<body>
+	
+	<div class="colored-body">
+		<div class="row text-center">
+			<div class="col title pt-5">
+				<h4>ADD NEW PACKAGE</h4>
+			</div>
+		</div>
+		<br>
+		<div class="row text-center">
+			<div class="col">
+				<img src="../static/img/boxes.png">
+			</div>
+		</div>
+		<div class="search-bar my-3">
+			<div class="group">
+				<input type="text" id="sender_name" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Sender's Name</label>
+			</div>
+			<div class="group">
+				<input type="text" id="sender_address" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Sender's Address</label>
+			</div>
+			<div class="group">
+				<input type="tel" id="sender_phone" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Sender's Phone</label>
+			</div>
+			<div class="group">
+				<input type="tel" id="source_pin" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Source PIN</label>
+			</div>
+			<div class="group">
+				<input type="text" id="reciever_name" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Reciever's Name</label>
+			</div>
+			<div class="group">
+				<input type="text" id="reciever_address" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Reciever's Address</label>
+			</div>
+			<div class="group">
+				<input type="tel" id="reciever_phone" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Reciever's Phone</label>
+			</div>
+			<div class="group">
+				<input type="tel" id="destination_pin" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Destination PIN</label>
+			</div>
+			<div class="group">
+				<input type="tel" id="weight" required>
+				<span class="highlight"></span>
+				<span class="bar"></span>
+				<label>Weight (in gms)</label>
+			</div>
+			<div class="group">
+				<select id="package_type">
+					<option value="">--Package Type--</option>
+					<option value="rpa">RPA</option>
+					<option value="spa">SPA</option>
+					<option value="epa">EPA</option>
+				</select>
+			</div>
+			<div class="group">
+				<button id="submit-btn" class="btn btn-outline-light btn-center">Add</button>
+
+			</div>
+		</div>
+		<br>
+	</div>
+
+	
+	<script src="../static/js/jquery.min.js"></script>
+	<script src="../static/js/popper.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+		<script>
+		function makeConsignmentNumber() {
+			var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			return "E" + possible.charAt(Math.floor(Math.random() * possible.length)) + Math.random().toString().slice(2, 11) +
+			"IN";
+		}
+		$(document).ready(() => {
+			$('#submit-btn').click(() => {
+				console.log("request sent");
+        //make con-id from regexp
+        // var regexp = /^E[A-Z][0-9]{9}IN/;
+        var con_id = makeConsignmentNumber();
+        console.log(con_id);
+        var obj =  {
+        	consignment_id: con_id,
+        	source:"3",
+        	destination:"3",
+        	source_pin: parseInt($('#source_pin').val()),
+        	destination_pin: parseInt($('#destination_pin').val()),
+        	sender_name: $('#sender_name').val(),
+        	sender_address: $('#sender_address').val(),
+        	sender_phone: parseInt($('#sender_phone').val()),
+        	reciever_name: $('#reciever_name').val(),
+        	delivery_cost:20,
+        	reciever_address: $('#reciever_address').val(),
+        	reciever_phone: parseInt($('#reciever_phone').val()),
+        	weight: parseInt($('#weight').val()),
+        	package_type: $('#package_type').val()
+        };
+        console.log(obj);
+        $.post('http://192.168.43.82:5000/pkg',obj)
+        .done(data => {
+            //show qr and consignment
+            console.log(data);
+        })
+        .fail(err => {
+        	console.error(err);
+        });
+
+    });
+		});
+	</script>
+		</body>
+		</html>
