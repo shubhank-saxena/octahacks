@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title> Node Postal Service </title>
 
     <!-- Bootstrap core CSS -->
     <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,14 +22,19 @@
 
     <!-- Custom styles for this template -->
     <link href="../static/css/resume.min.css" rel="stylesheet">
-
+    <style>
+      .container {
+        margin-top: 100px;
+        margin-left: 50px;
+      }
+    </style>
   </head>
 
   <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none"></span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../static/img/boxes.png" alt="logo">
         </span>
@@ -49,7 +54,7 @@
             <a class="nav-link js-scroll-trigger" href="{{ url_for('addpkg') }}">Add Package</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ url_for('show_results') }}">Show Results</a>
+            <a class="nav-link js-scroll-trigger" href="{{ url_for('login') }}">Show Results</a>
           </li>
         </ul>
       </div>
@@ -57,7 +62,7 @@
 
     <div class="container-fluid p-0">
       {% block content %}
-      {% end block %}
+      {% endblock %}
     </div>
 
     <!-- Bootstrap core JavaScript -->

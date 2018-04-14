@@ -54,7 +54,7 @@ def close_connection(exception):
 @app.route('/' ,methods=['POST','GET'])
 def login():
     if request.method == "GET":
-        return render_template("new_index.html")
+        return render_template("login.html")
     else:
         error = None
         username=request.form["username"]
@@ -70,7 +70,7 @@ def login():
             return "Password Incorrect"
 
 
-@app.route('/#signup', methods=['GET', 'POST'])
+@app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == "GET":
         return render_template("signup.html")
@@ -84,7 +84,7 @@ def signup():
         if submission["pass"]!=submission["conf_pass"]:
             return "Wrong password"
 
-        if query_db("select username from users where username = ?", (submission["username"],))!=[]:
+        if query_db("select usrname from users where usrname = ?", (submission["username"],))!=[]:
             error = "Username already taken" 
 
         password = sha.encrypt(submission["pass"])
@@ -95,7 +95,7 @@ def signup():
 
         return redirect(url_for("login"))
 
-@app.route("/#logout")
+@app.route("/logout")
 def logout():
     session.clear()
     return redirect(url_for("login"))
@@ -127,17 +127,17 @@ def change():
             flash("Wrong Password")
             return redirect(url_for("change"))
 
-@app.route('/#addpkg', methods=['GET', 'POST'])
+@app.route('/addpkg', methods=['GET', 'POST'])
 def addpkg():
     if request.method == "POST":
         submission = {}
-        submission["srcpin"] = form.request["srcpin"]
-        submission["dstpin"] = form.request["dstpin"]
-        submission["name"] = form.request["name"]
-        submission["srcadd"] = form.request["srcadd"]
-        submission["dstadd"] = form.request["dstadd"]
+        submission["srcpin"] = request.form["srcpin"]
+        submission["dstpin"] = request.form["dstpin"]
+        submission["name"] = request.form["name"]
+        submission["srcadd"] = request.form["srcadd"]
+        submission["dstadd"] = request.form["dstadd"]
 
-        execute_db("insert into users values(?, ?, ?, ?, ?)", (
+        execute_db("insert into packages (srcpin, dstpin, name, srcadd, dstadd) values(?, ?, ?, ?, ?)", (
             submission["srcpin"],
             submission["dstpin"],
             submission["name"],
@@ -183,122 +183,3 @@ def cal_distime():
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
     app.run(host = "0.0.0.0",debug=True, port=8080)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    import sys
-
-def process(graph,dest):
-    l=len(dest)
-    arr=[]
-    for i in range(l):
-        li= []
-        for j in range(l):
-            li.append(0)
-        arr.append(li)
-
-    for i in range(0,l):
-        for j in range(i,l):
-            arr[i][j] = graph[dist[i]][dist[j]]
-            arr[j][i]=arr[i][j]
-    dist=[sys.maxint]*l
-    visited=[false]*l
-    parent=[0]*l
-    dist[0]=0;
-    while l is not 0:
-        u=minimum(dist,visited)
-        visited[u]=true
-        for i in range(0,l):
-            if !visited[j] and dist[j]>arr[u][j]:
-                dist[j]=arr[u][j]
-                parent[j]=u
-
-    mst=[]
-    for i in range(l):
-        li = []
-        for j in range(l):
-            li.append(0)
-        mst.append(li)
-
-        
-    for i in range(0,len(parent)):
-        mst[parent[i]][i]=1
-        mst[i][parent[i]]=1
-return mst
-
-
-def minimum(dist,visited):
-    min=sys.maxint
-    node=0;
-    for x in len(dist):
-        if !visited[x]&& min>dist[x]:
-            min=dist[x]
-            node=x
-    return node
-
-
-def process2(mst,x):
-    for i in mst:
-        if i==0
-            ;
-        else:
-            li.append(i)
-            li.append(process2(mst,i))
-            return li
-
-
-def fina_path():
-    json_file
-    truck_cap=40000
-    for a in json_file:
-        li.append(s['destpin'],s['id'])
-        ms.append(li)
-    # sort
-    trucks=[]
-    left=[]
-    p=0
-    for i in range(len(ms)):
-        if ms[i]['destpin']==ms[i]['destpin']:
-            trucks[p++]=ms[i:i+truck_cap]
-            i+=truck+cap
-        else:
-            left.append(ms[i])
-    set.add(source) 
-    for x in left:
-        set.add(x['destpin'])
-
-    mst=process(json_file,set)
-    for x in mst:
-        if x is not 0:
-            li.append(process2(mst,x['']))
-
-    set2.add(li)
-    truckcap=truck_cap
-    for x in set2:
-        for a in left:
-            if set2.contains(a):
-                trucks[p].append(a)
-                truckcap--;
-                if truckcap==0:
-                    p++;
-                    truckcap=truck_cap
-
-        p++;
-        truckcap=truck_cap
-
-
-
