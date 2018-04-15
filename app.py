@@ -8,6 +8,7 @@ import json
 import privs
 
 app = Flask(__name__, static_folder="static")
+app.jinja_env.add_extension('jinja2.ext.do')
 
 Database = 'octahacks.db'
 
@@ -55,6 +56,8 @@ def close_connection(exception):
 @app.route('/' ,methods=['POST','GET'])
 def login():
     if request.method == "GET":
+        if session:
+            return redirect(url_for("addpkg"))
         return render_template("login.html")
     else:
         error = None
@@ -150,12 +153,24 @@ def addpkg():
 
     return render_template("addpkg.html")
 
-@app.route("/show_results", methods=["GET", "POST"])
+@app.route("/show_results")
 @login_required
 def show_results():
     if request.method == "GET":
         query = query_db("select dstpin, assinged, id from packages where assinged is NULL")
-        privs.find_path(query, '122001')
+        trucks , p = privs.find_path(query, session['username'])
+        f = open("postoffices.csv", 'r')
+        reader = csv.reader(f)
+        csv_list = list(reader)
+        path = []
+        for pa in p:
+            for poffice in pa:
+                for po in csv_list:
+                    if po[2]==str(poffice):
+                        path.append(po[0])
+                        break
+        path = ', '.join(path)
+        return render_template("show_results.html", trucks=trucks, path=path)
 
 @app.route('/populate')
 def populate():

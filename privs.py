@@ -105,4 +105,4 @@ def find_path(query, un):
         truckcap=truck_cap
         temp=[]
 
-    print(trucks, path)
+    return (trucks, path)
