@@ -15,8 +15,7 @@ import json
 import requests
 import time
 import urllib
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+
 
 def get_url(Url):
 	response=requests.get(Url)
