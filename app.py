@@ -159,6 +159,7 @@ def show_results():
     if request.method == "GET":
         query = query_db("select dstpin, assinged, id from packages where assinged is NULL")
         trucks , p = privs.find_path(query, session['username'])
+        print(trucks,p)
         f = open("postoffices.csv", 'r')
         reader = csv.reader(f)
         csv_list = list(reader)
@@ -174,8 +175,13 @@ def show_results():
             temp_path.append(temp)
         for pa in temp_path:
             path.append(','.join(pa))
-        print(trucks, path)
-        return render_template("show_results.html", trucks=trucks, path=path)
+        id = []
+        for truck in trucks:
+            temp = []
+            for package in truck:
+                temp.append(str(package[2]))
+            id.append(','.join(temp))
+        return render_template("show_results.html", trucks=trucks, path=path, id=id)
 
 @app.route('/populate')
 def populate():

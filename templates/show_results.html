@@ -14,20 +14,16 @@
   </thead>
 
   <tbody>
-    {% set var = 1 %}
-    {% set po = 0 %}
     {% for truck in trucks %}
         <tr data-toggle="collapse" data-target="#{{ loop.index }}" class="clickable">
         <td> {{ loop.index }}</td>
         <td> {{ truck|length }}</td>
-        <td> {{ path }}</td>
+        <td> {{ path[loop.index-1] }}</td>
         </tr>
-        {% set var= var+1 %}
         <tr>
             <td colspan="3">
                 <div id="{{ loop.index }}" class="collapse" >
-                    {% set packages= ['vsdhgb', 'hbzxh'] %} 
-                    {{  packages|join(', ') }}
+                    {{ id[loop.index - 1]}}
                 </div>
             </td>
         </tr>

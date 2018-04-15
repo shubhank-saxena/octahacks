@@ -68,15 +68,17 @@ def find_path(query, un):
     se = []
     p=0
     se.append(int(un))
-    for i in range(le):
+    i = 0
+    while i<le:
         if i+truck_cap<le and query[i][0]==query[i+truck_cap][0]:
             trucks.append(query[i:i+truck_cap])
             path.append([query[i][0]])
             p+=1
-            i+=truck_cap
+            i+=truck_cap-1
         else:
             left.append(query[i])
             se.append(query[i][0])
+        i+=1
     se = list(set(se))
     mst=process(se)
     se2 = []
@@ -100,7 +102,8 @@ def find_path(query, un):
                     truckcap=truck_cap
 
         p+=1
-        trucks.append(temp)
+        if temp!=[]:
+            trucks.append(temp)
         path.append(x)
         truckcap=truck_cap
         temp=[]
