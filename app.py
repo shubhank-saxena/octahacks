@@ -162,14 +162,19 @@ def show_results():
         f = open("postoffices.csv", 'r')
         reader = csv.reader(f)
         csv_list = list(reader)
+        temp_path = []
         path = []
         for pa in p:
+            temp = []
             for poffice in pa:
                 for po in csv_list:
                     if po[2]==str(poffice):
-                        path.append(po[0])
+                        temp.append(po[0])
                         break
-        path = ', '.join(path)
+            temp_path.append(temp)
+        for pa in temp_path:
+            path.append(','.join(pa))
+        print(trucks, path)
         return render_template("show_results.html", trucks=trucks, path=path)
 
 @app.route('/populate')
