@@ -18,7 +18,7 @@
         <tr data-toggle="collapse" data-target="#{{ loop.index }}" class="clickable">
         <td> {{ loop.index }}</td>
         <td> {{ truck|length }}</td>
-        <td> {{ path[loop.index-1] }}</td>
+        <td id="path"> {{ path[loop.index-1] }}</td>
         </tr>
         <tr>
             <td colspan="3">
