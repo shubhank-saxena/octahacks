@@ -8,7 +8,7 @@ import json
 import privs
 
 app = Flask(__name__, static_folder="static")
-app.jinja_env.add_extension('jinja2.ext.do')
+# app.jinja_env.add_extension('jinja2.ext.do')
 
 Database = 'octahacks.db'
 

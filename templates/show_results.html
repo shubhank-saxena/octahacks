@@ -17,19 +17,16 @@
     {% set var = 1 %}
     {% set po = 0 %}
     {% for truck in trucks %}
-        <tr data-toggle="collapse" data-target="#accordion" class="clickable">
-        <td> {{ var }}</td>
+        <tr data-toggle="collapse" data-target="#{{ loop.index }}" class="clickable">
+        <td> {{ loop.index }}</td>
         <td> {{ truck|length }}</td>
         <td> {{ path }}</td>
         </tr>
         {% set var= var+1 %}
         <tr>
             <td colspan="3">
-                <div id="accordion" class="collapse" >
-                    {% set packages= [] %} 
-                    {% for package in truck %}
-                        {% do packages.append(package[2]) %}
-                    {% endfor %}
+                <div id="{{ loop.index }}" class="collapse" >
+                    {% set packages= ['vsdhgb', 'hbzxh'] %} 
                     {{  packages|join(', ') }}
                 </div>
             </td>
