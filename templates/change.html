@@ -1,0 +1,28 @@
+{% extends 'new_index.html' %}
+
+{% block content %}
+<div class="container">
+	
+	<div class="row">
+		<div class="col-sm-offset-3 col-sm-6">
+			
+			<form action="{{ url_for('change')}}" method="post">
+				<h2>Change Password</h2>
+				<div class="form-group">
+					<label for="exampleInputPassword1">Old Password</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" name="old_password" placeholder="Old Password">
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword1">New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="New Password">
+                    </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword1"> Confirm New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="conf_pass" placeholder="Confirm New Password">
+                </div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock%}

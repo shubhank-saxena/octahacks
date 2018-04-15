@@ -5,6 +5,7 @@ from functools import wraps
 import csv
 import distance
 import json
+import privs
 
 app = Flask(__name__, static_folder="static")
 
@@ -96,6 +97,7 @@ def signup():
         return redirect(url_for("login"))
 
 @app.route("/logout")
+@login_required
 def logout():
     session.clear()
     return redirect(url_for("login"))
@@ -104,10 +106,10 @@ def logout():
 @login_required
 def change():
     if request.method == "GET":
-        render_template("change.html")
+        return render_template("change.html")
     else:
         password = request.form["old_password"]
-        old_password = query_db("select password from users where username = ?", (session["username"],))
+        old_password = query_db("select password from users where usrname = ?", (session["username"],))
         if sha.verify(password, old_password[0][0]):
             submission = {}
             submission["pass"] = request.form["password"]
@@ -119,7 +121,7 @@ def change():
             
             password = sha.encrypt(submission["pass"])
             
-            execute_db("update users set password = ? where username = ?", (
+            execute_db("update users set password = ? where usrname = ?", (
             password,
             session["username"],))
             return redirect(url_for("login"))
@@ -128,6 +130,7 @@ def change():
             return redirect(url_for("change"))
 
 @app.route('/addpkg', methods=['GET', 'POST'])
+@login_required
 def addpkg():
     if request.method == "POST":
         submission = {}
@@ -146,6 +149,13 @@ def addpkg():
         ))
 
     return render_template("addpkg.html")
+
+@app.route("/show_results", methods=["GET", "POST"])
+@login_required
+def show_results():
+    if request.method == "GET":
+        query = query_db("select dstpin, assinged, id from packages where assinged is NULL")
+        privs.find_path(query, '122001')
 
 @app.route('/populate')
 def populate():

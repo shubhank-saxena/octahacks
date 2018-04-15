@@ -44,18 +44,28 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
+          {% if not session %}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ url_for('login') }}">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ url_for('signup') }}">Sign Up</a>
           </li>
+          {% endif %}
+          {% if session %}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ url_for('addpkg') }}">Add Package</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ url_for('login') }}">Show Results</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ url_for('change') }}">Change Password</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ url_for('logout') }}">Logout</a>
+          </li>
+          {% endif %}
         </ul>
       </div>
     </nav>
