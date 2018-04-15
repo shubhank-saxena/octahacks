@@ -1,0 +1,38 @@
+{% extends 'new_index.html' %}
+
+{% block content %}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr data-toggle="collapse" data-target="#accordion" class="clickable">
+      <td>Some Stuff</td>
+      <td>Some more stuff</td>
+      <td>And some more</td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <div id="accordion" class="collapse">Hidden by default</div>
+      </td>
+    </tr>
+    <tr data-toggle="collapse" data-target="#accordions" class="clickable">
+      <td>Some Stuff</td>
+      <td>Some more stuff</td>
+      <td>And some more</td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <div id="accordions" class="collapse">Hello World</div>
+      </td>
+    </tr>
+  </tbody>
+
+</table>
+
+{% endblock%}
