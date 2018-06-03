@@ -6,17 +6,10 @@ import csv
 import distance
 import json
 import privs
-import echo
 
-import pickle
 
-file=open('cred','rb')
 
-creds=pickle.load(file)
-
-chatid=creds[1]
-
-app = Flask(__name__, static_folder="static")
+application = app = Flask(__name__, static_folder="static")
 # app.jinja_env.add_extension('jinja2.ext.do')
 
 Database = 'octahacks.db'
@@ -190,7 +183,6 @@ def show_results():
             for package in truck:
                 temp.append(str(package[2]))
             id.append(','.join(temp))
-            echo.send_message('Path\n\n'+' '.join(path[1]),chatid)
         return render_template("show_results.html", trucks=trucks, path=path, id=id)
 
 @app.route('/populate')

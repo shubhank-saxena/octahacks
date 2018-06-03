@@ -20,7 +20,7 @@ def process(dest):
         l-=1
         u=minimum(dist,visited)
         visited[u]=True
-        for i in range(l):
+        for j in range(l):
             if visited[j]==False and dist[j]>arr[u][j]:
                 dist[j]=arr[u][j]
                 parent[j]=u
@@ -56,7 +56,7 @@ def process2(se,mst,x,y):
     for i in range(len(mst)):
         if y!=i and mst[x][i]!=0:
             li+=process2(se,mst,i,x)
-    return li
+    return li 
 
 def find_path(query, un):
     truck_cap=4
@@ -67,19 +67,29 @@ def find_path(query, un):
     left=[]
     se = []
     p=0
-    se.append(int(un))
+
     i = 0
     while i<le:
-        if i+truck_cap<le and query[i][0]==query[i+truck_cap][0]:
-            trucks.append(query[i:i+truck_cap])
-            path.append([query[i][0]])
-            p+=1
-            i+=truck_cap-1
-        else:
-            left.append(query[i])
-            se.append(query[i][0])
+        if query[i][0]!=int(un):
+            if i+truck_cap<le and query[i][0]==query[i+truck_cap][0]:
+                trucks.append(query[i:i+truck_cap])
+                path.append([query[i][0]])
+                p+=1
+                i+=truck_cap-1
+            else:
+                left.append(query[i])
+                se.append(query[i][0])
         i+=1
+    print("####")
+    print(left)
+    print("####")
     se = list(set(se))
+    se.insert(0, int(un))
+    print("####")
+    print(se)
+    print("####")
+    
+    
     mst=process(se)
     se2 = []
     for y in range(len(mst)):
@@ -87,11 +97,14 @@ def find_path(query, un):
         if mst[0][y]!=0:
             li+=process2(se,mst,y,0)
             se2.append(li)
+    print("####")
+    print(se2)
+    print("####")
     truckcap=truck_cap
     temp=[]
     for x in se2:
         for a in left:
-            if x.count(a[0])>0:
+            if x.count(a[0])>0 and a[0]!=int(un):
                 temp.append(a)
                 truckcap-=1
                 if truckcap==0:
